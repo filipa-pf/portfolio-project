@@ -1,6 +1,14 @@
+:root{
+    --primary-color: #D3D3D3;
+    --body-font-family:'Bricolage Grotesque', sans-serif;
+    --paragraph-font-family:'Open Sans', sans-serif;
+}
 body {
-    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: var(--body-font-family);
 }
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--paragraph-font-family);
+}
+.job-title{
+    font-size: 1.2em;
 }
