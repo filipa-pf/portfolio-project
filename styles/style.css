@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #D3D3D3;
+    --primary-color: #d5d4d4;
     --body-font-family:'Bricolage Grotesque', sans-serif;
     --paragraph-font-family:'Open Sans', sans-serif;
 }
@@ -11,4 +11,7 @@ p {
 }
 .job-title{
     font-size: 1.2em;
+}
+footer {
+  background-color: rgba(248,249,250,1);  
 }

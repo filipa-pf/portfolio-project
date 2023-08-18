@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light px-3 px-sm-5">
+    <nav class="navbar navbar-expand-lg bg-light px-3 px-sm-5 sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Filipa Faria</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -37,17 +37,69 @@
             </div>
         </div>
     </nav>
-    <div class="container py-5">
-        <div class="row text-center text-sm-start">
+    <div class="container-fluid py-5 bg-light">
+        <div class="container">
+            <div class="row text-center text-sm-start">
+                <div class="col-12 col-sm-6">
+                    <p>Hello, I'm</p>
+                    <h1>Filipa Faria</h1>
+                    <h2 class="job-title">Web Developer, based in Portugal</h2>
+                    <a class="btn btn-dark my-3" href="mailto:anafilipa.paesdefaria@gmail.com">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <h6 class="text-center">Some of my projects and websites I've built or participated in!</h6>
+
+        <div class="row justify-content-evenly text-center align-items-start mt-5">
             <div class="col-12 col-sm-6">
-                <p>Hello, I'm</p>
-                <h1>Filipa Faria</h1>
-                <h2 class="job-title">Web Developer, based in Portugal</h2>
-                <a class="btn btn-dark my-3" href="mailto:anafilipa.paesdefaria@gmail.com">Contact me</a>
+                <img src="images/vg.png" alt="ValGenesis Website" class="img-fluid" />
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2><a href="www.valgenesis.com">ValGenesis</a> Website</h2>
+                <p>Dynamic website</p>
+                <a href="#" class="btn btn-primary">See more</a>
+            </div>
+        </div>
+        <div class="row justify-content-evenly text-center align-items-start mt-5">
+            <div class="col-12 col-sm-6">
+                <h2>Dictionary App</h2>
+                <p>Built with React</p>
+                <a href="https://dictionary-app-fpf.netlify.app/" class="btn btn-primary">Check Dictionary</a>
+            </div>
+            <div class="col-12 col-sm-6">
+                <img src="images/dictionary.png" alt="Dictionary App" class="img-fluid" />
+            </div>
+        </div>
+        <div class="row justify-content-evenly text-center align-items-start mt-5">
+            <div class="col-12 col-sm-6">
+                <img src="images/yogurt.png" alt="yogurt" class="img-fluid" />
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2>Yogurt Delights</h2>
+                <p>Experience a symphony of flavors with our Yogurt Delights. From classic yogurt parfaits to exotic
+                    yogurt-based dishes, your taste buds are in for a treat.</p>
+                <a href="#" class="btn btn-primary">Explore Yogurt Recipes</a>
             </div>
         </div>
     </div>
 
+    <footer>
+        <div class="container-fluid p-5">
+            <div class="row justify-content-center">
+                <div class="col-8 col-sm-6 text-center">
+                    <p class="fw-bold">
+                        This website was coded by <a href="#">Filipa Faria</a>
+                    </p>
+                    <p>
+                        and it's <a href="#">open-sourced</a>.
+                    </p>
+                    <small class="text-muted">2023</small>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- Bootstrap JS -->
