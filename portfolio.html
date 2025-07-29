@@ -309,11 +309,14 @@
                         and it's <a class="text-decoration-none"
                             href="https://github.com/filipa-pf/portfolio-project">open-sourced</a>.
                     </p>
-                    <small class="text-muted">2023</small>
-                </div>
+                    <small class="text-muted" id="year"></small>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
